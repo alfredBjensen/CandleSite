@@ -2,6 +2,34 @@
   padding:0;
   margin:0;
   font-size:100%;
+  border:1px solid silver;
+}
+
+
+.main-header{
+  background-color:white;
+  font-weight:bold;
+  display: -webkit-flex;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.main-nav{
+  list-style-type: none;
+  display: -webkit-flex;
+  display: flex;
+  align-items:space-evenly;
+  justify-content:space-around;
+  border:1px solid green;
+}
+
+.main-nav li{
+  font-variant:small-caps;
+}
+
+.main-logo{
+  text-align:center;
 }
 
 
@@ -10,6 +38,10 @@
 
   body{
     background-color:red;
+  }
+
+  .main-header{
+    flex-direction: column;
   }
 
 }
@@ -21,5 +53,17 @@
   body{
     background-color:green;
   }
-  
+
+  .main-nav{
+    flex:2;
+  }
+
+  .main-logo{
+    flex:1;
+  }
+
+  .main-logo img{
+    width:250px;
+  }
+
 }
