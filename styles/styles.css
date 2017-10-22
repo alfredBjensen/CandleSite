@@ -43,7 +43,7 @@
 }
 
 .new-section-logo{
-  width:70%;
+  width:75%;
   float:right;
 }
 
@@ -72,6 +72,17 @@
 
 /* ------ tablet and desktop -------- */
 @media only screen and (min-device-width: 700px){
+
+  .section-aside-left p{
+    text-align:right;
+  }
+
+  .section-aside-left figure{
+    margin-top:4.4em;
+    clear:both;
+    overflow:auto;
+    margin-bottom:1em;
+  }
 
   body{
     background-color:green;
