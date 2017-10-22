@@ -19,16 +19,23 @@
   list-style-type: none;
   display: -webkit-flex;
   display: flex;
-  align-items:space-evenly;
   justify-content:space-around;
+  border:1px solid green;
 }
 
 .main-nav li{
   font-variant:small-caps;
+  font-family: 'Playfair Display', serif;
 }
 
 .main-logo{
   text-align:center;
+}
+
+.main-section{
+  position:relative;
+  background-color:white;
+  overflow:auto;
 }
 
 
@@ -43,8 +50,12 @@
     flex-direction: column;
   }
 
+  .main-nav{
+    width:100%;
+  }
+
   .main-nav li{
-      font-size:1.4em;
+      font-size:1.5em;
   }
 
 }
@@ -71,6 +82,12 @@
 
   .main-logo img{
     width:250px;
+  }
+
+  .section-aside{
+    float:left;
+    width:26%;
+    padding:2%;
   }
 
 }
