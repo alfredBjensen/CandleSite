@@ -43,6 +43,10 @@
     flex-direction: column;
   }
 
+  .main-nav li{
+      font-size:1.4em;
+  }
+
 }
 
 
