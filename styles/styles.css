@@ -14,6 +14,15 @@ body{
   background-color:white;
 }
 
+.crafted-article{
+  display:flex;
+}
+
+.crafted-figure{
+  flex:1;
+  text-align:center;
+}
+
 .main-header{
   background-color:transparent;
   font-weight:bold;
@@ -58,7 +67,8 @@ body{
 }
 
 .landing-img{
-  width:77%;
+  width:78%;
+  margin-left:1%;
 }
 
 .new-section-logo{
@@ -93,6 +103,13 @@ body{
   float:right;
 }
 
+.crafted-figure button{
+  background-color:#fae8da;
+  color:#222222;
+  font-variant:small-caps;
+  letter-spacing:.1em;
+}
+
 
 /* ------ mobile ---------- */
 @media only screen and (max-device-width: 700px){
@@ -114,6 +131,12 @@ body{
 
 /* ------ tablet and desktop -------- */
 @media only screen and (min-device-width: 700px){
+
+  .crafted-figure button{
+    padding:1.2em .4em;
+    font-size:1em;
+    min-width:12em;
+  }
 
 
   .crafted-header{
