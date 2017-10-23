@@ -62,8 +62,14 @@ body{
 }
 
 .new-section-logo{
-  width:75%;
+  width:98%;
   float:right;
+}
+
+.new-content-holder{
+  float:right;
+  width:75%;
+  padding:1%;
 }
 
 .crafted-header{
@@ -81,6 +87,10 @@ body{
   background-color:#936740;
   padding:.5em 1.2em;
   margin-top:.5em;
+}
+
+.button-float-right{
+  float:right;
 }
 
 
