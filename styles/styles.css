@@ -23,6 +23,10 @@ body{
   text-align:center;
 }
 
+.crafted-figure img{
+  width:100%;
+}
+
 .main-header{
   background-color:transparent;
   font-weight:bold;
@@ -132,14 +136,7 @@ body{
 /* ------ tablet and desktop -------- */
 @media only screen and (min-device-width: 700px){
 
-  .crafted-figure button{
-    padding:1.2em .4em;
-    font-size:1em;
-    min-width:12em;
-  }
-
-
-  .crafted-header{
+    .crafted-header{
     font-size:3.2em;
     padding:.3em;
   }
