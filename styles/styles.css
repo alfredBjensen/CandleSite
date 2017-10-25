@@ -14,6 +14,53 @@ body{
   background-color:white;
 }
 
+.main-footer-aside{
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  font-size:1.1em;
+}
+
+.signup-form{
+  text-align:center;
+}
+
+.signup-form fieldset{
+  border:none;
+}
+
+.signup-form legend{
+  color:white;
+  font-weight:bold;
+}
+
+.signup-form button, input{
+  display:block;
+  border:1px solid red;
+  margin:auto;
+}
+
+.main-footer{
+  background-color:#222222;
+  font-variant:small-caps;
+}
+
+.main-footer-section{
+  display:flex;
+}
+
+.main-footer-ul{
+  flex:1;
+  text-align:center;
+  list-style-type:none;
+  color:white;
+  background-color:transparent;
+}
+
+.main-footer-ul li:first-child{
+  font-weight:bold;
+}
+
 .crafted-article{
   display:flex;
 }
@@ -130,11 +177,31 @@ body{
       font-size:1.5em;
   }
 
+
 }
 
 
 /* ------ tablet and desktop -------- */
 @media only screen and (min-device-width: 700px){
+
+  .signup-form{
+    padding:3em;
+  }
+
+  .signup-form input{
+    margin-top:.5em;
+    margin-bottom:.7em;
+  }
+
+  .signup-form input[type=text]{
+    padding:.5em;
+  }
+
+  .main-footer-section{
+    padding:7%;
+    justify-content:center;
+    align-items:center;
+  }
 
     .crafted-header{
     font-size:3.2em;
