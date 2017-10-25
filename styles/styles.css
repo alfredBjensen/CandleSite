@@ -36,7 +36,6 @@ body{
 
 .signup-form button, input{
   display:block;
-  border:1px solid red;
   margin:auto;
 }
 
