@@ -7,11 +7,25 @@
   padding:0;
   margin:0;
   font-size:100%;
-  border:1px solid silver;
 }
 
 body{
   background-color:white;
+}
+
+
+.team-aside-figure figcaption{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.team-section{
+  background-image: url('../images/photobackground.jpg');
+  background-size: cover;
+}
+
+.team-img{
+  width:100%;
 }
 
 .main-footer-aside{
@@ -19,6 +33,7 @@ body{
   font-weight:bold;
   text-align:center;
   font-size:1.1em;
+  padding:1%;
 }
 
 .signup-form{
@@ -87,7 +102,6 @@ body{
   display: -webkit-flex;
   display: flex;
   justify-content:space-around;
-  border:1px solid green;
 }
 
 .main-nav li{
@@ -182,6 +196,10 @@ body{
 
 /* ------ tablet and desktop -------- */
 @media only screen and (min-device-width: 700px){
+
+  .section-aside-right{
+      margin-top:10%;
+  }
 
   .signup-form{
     padding:3em;
