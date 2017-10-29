@@ -186,21 +186,14 @@ button{
   z-index:-1;
 }
 
-.landing-img{
-  width:78%;
-  margin-left:1%;
-}
+
 
 .new-section-logo{
   width:98%;
   float:right;
 }
 
-.new-content-holder{
-  float:right;
-  width:75%;
-  padding:1%;
-}
+
 
 .crafted-header{
   font-family: 'RespectiveSlanted', cursive;
@@ -234,16 +227,40 @@ button{
 /* ------ mobile ---------- */
 @media only screen and (max-device-width: 700px){
 
+
+
+  .new-content-holder{
+    display:block;
+    text-align:center;
+  }
+
+  .new-content-holder p{
+    font-size:2em;
+    padding:.3em;
+  }
+
+  .main-brown-button{
+    font-size:2em;
+  }
+
+
+    .landing-img{
+      display:block;
+      width:80%;
+      margin:.7em auto;
+    }
+
   .main-header{
     flex-direction: column;
   }
 
   .main-nav{
     width:100%;
+    font-size:1.7em;
   }
 
   .main-nav li{
-      font-size:1.5em;
+      font-size:1.7em;
   }
 
 
@@ -252,6 +269,14 @@ button{
 
 /* ------ tablet and desktop -------- */
 @media only screen and (min-device-width: 700px){
+
+
+
+  .new-content-holder{
+    float:right;
+    width:75%;
+    padding:1%;
+  }
 
   .section-aside-right{
       margin-top:10%;
@@ -318,6 +343,11 @@ button{
     width:63%;
     padding:3%;
     float:left;
+  }
+
+  .landing-img{
+    width:78%;
+    margin-left:1%;
   }
 
 }
