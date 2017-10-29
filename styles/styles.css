@@ -4,6 +4,7 @@
 }
 
 *{
+  background-color:transparent;
   padding:0;
   margin:0;
   font-size:100%;
@@ -11,6 +12,59 @@
 
 body{
   background-color:white;
+}
+
+button{
+  border:none;
+}
+
+.blog-section{
+}
+
+.blog-article-holder{
+  display:flex;
+  position:relative;
+    overflow:hidden;
+}
+
+.blog-article-holder:after{
+  display:block;
+  content:'';
+  position:absolute;
+  background-color:#fae8da;
+  top:15em;
+  width:100%;
+  height:70%;
+  z-index:-1;
+}
+
+.blog-article-holder article{
+  flex:1;
+  width:50%;
+}
+
+.blog-article-holder article p{
+  display:block;
+  width:80%;
+  margin:1em auto;
+}
+
+.blog-article-holder article h2{
+  text-align:center;
+  font-variant:small-caps;
+  font-size:1.4em;
+}
+
+.blog-article-holder article figure{
+  text-align:center;
+}
+
+.blog-article-holder article img{
+  width:80%;
+}
+
+.team-aside-figure img{
+  width:90%;
 }
 
 
@@ -22,6 +76,8 @@ body{
 .team-section{
   background-image: url('../images/photobackground.jpg');
   background-size: cover;
+  margin:0;
+  padding:0;
 }
 
 .team-img{
